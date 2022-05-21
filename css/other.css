@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background: lightgray;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fefefe;
+  background-color: azure;
+}
+.container {
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face {
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+
+.carousel__face:nth-child(1) {
+  background-image: url("https://s.04597.com.ua/section/newsInText/upload/images/news/intext/000/051/834/04597comuacomuuniformakuharapovinnavidpovidati202002281817296690_5e5e0e5837a14.jpg");
+  transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) {
+  background-image: url("https://harchi.info/files/1861-Chef-de-Partie.jpg");
+    transform: rotateY( 40deg) translateZ(430px); }
+.carousel__face:nth-child(3) {
+  background-image: url("https://4mama.ua/uploads/images/photo_article/4167_one_max.jpg?1508396704");
+  transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+  background-image: url("https://global-teamwork.com/images/gallery/133/global-teamwork-20191016210926-13608.jpg");
+  transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) {
+  background-image: url("https://leopolis.news/img/maximum/1398163140.jpg");
+ transform: rotateY(160deg) translateZ(430px); }
+.carousel__face:nth-child(6) {
+  background-image: url("https://blog.mta.ua/wp-content/uploads/2021/02/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8-3.jpg");
+ transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) {
+  background-image: url("https://www.dilovamova.com/images/wpi.images/h_ua_den_povara.jpg");
+ transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+  background-image: url("http://olegiya.com.ua/image/data/statiyi/bizness%20idei/1450371177_chef.jpg");
+  transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+  background-image: url("https://porady.co.ua/wp-content/uploads/2020/06/rozryadi-kuhar-v-scho-ce-sk-l-ki-h-snu-kval-f-kac-ya-kuhar-v-3-4-5-rozryadu-yak-p-dvischiti-rozryad-z-profes-kuharya-7.jpg");
+  transform: rotateY(320deg) translateZ(430px); }
+
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+p{
+    text-align: center;
+    background-color: black;
+
+}
+a{
+    color:black;
+}

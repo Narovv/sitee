@@ -1,0 +1,187 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    color: #8D8D8D;
+    font-size: 18px;
+
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-style: normal;
+    font-weight: 800;
+    color: #151515;
+
+}
+
+h3{
+    font-size: 22px;
+}
+
+.header{
+    height: 90vh;
+}
+
+.container-fluid{
+    margin-bottom: 127px;
+}
+
+.nav{
+    padding-top: 59px;
+}
+
+
+.search{
+    background: transparent;
+    border: 0;
+
+}
+
+
+.offer-cont__title{
+    font-size: 50px;
+    letter-spacing: -0.01em;
+    line-height: 1.1em;
+
+}
+
+.offer-cont__text{
+    margin: 15px 0 20px;
+
+}
+
+.offer-cont__btn{
+    background-color: #4737FF;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 12px 25px;
+    display: inline;
+    letter-spacing: 0.1;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    background: #3726F2;
+    color: #fff;
+}
+
+
+.problems{
+    padding-top: 135px;
+
+}
+
+.about{
+
+
+}
+
+.about__title{
+    font-size: 30px;
+
+}
+
+.about__text{
+
+}
+
+
+.secondfood{
+    padding-top: 148px;
+    padding-bottom: 148px;
+}
+
+.offer-cont__texte{
+    margin: 15px 0 20px;
+
+}
+
+.offer-content{
+
+}
+
+.lastfood{
+
+}
+
+.povar{
+
+    padding-top: 248px;
+}
+.contributor{
+    margin-top: 110px;
+
+}
+
+.contributor__title{
+    margin-bottom: 15px;
+
+}
+
+.contributor__desc{
+
+}
+
+.hero{
+
+}
+
+
+.cont-photo{
+    display: block;
+    float: right;
+
+
+}
+
+#.rightpic {
+    float: right;
+    margin:  -250px 190px;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+
+}
+footer a{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    font-weight: 50px;
+
+}
+
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
+
+}
+.btn {
+    display: inline-block;
+    background: #8C959D;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+   }
+
+a{
+    color:black;
+
+}
